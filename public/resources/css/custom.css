@@ -1,0 +1,193 @@
+.text-white{
+    color:white;
+}
+.text-red{
+    color:#c14d4d;
+}
+nav a:hover{
+    color:#c14d4d;
+}
+.navbar-title {
+    float: left;
+    height: 100%;
+    padding: 10px 15px;
+    font-size: 38px;
+    line-height: 20px;
+    color: #2e2e2e;
+}
+.navbar-title:hover,
+.navbar-title:focus {
+    text-decoration: none;
+}
+.navbar-title > img {
+    display: block;
+    height: 100%;
+}
+.owl-item{
+    width: 350px;
+}
+.schedule-row.row {
+    margin: 0 0;
+}
+form.login {
+    background-image: url(../img/loginbg.png);
+    border-radius: 5px;
+    padding: 100px 10px;
+    height: 450px;
+}
+form.login input, button{
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+}
+form.login input{
+    color:#b53939;
+}
+form.login input:nth-child(3n){
+    width:100px;
+}
+
+a.addPhoto {
+    color: white;
+    background: #b83a3a;
+    font-size: 32px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+/*Contact*/
+
+.contact:hover{
+    height: 320px !important;
+    color: blue;
+}
+p.error-message {
+    background: #c14d4d;
+    color: white;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#workshops .part{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+#workshops .part h4{
+    width: 400px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 25%;
+    color: #ba3b3b;
+}
+#workshops .part p{
+    width: 120px;
+    margin: 0 auto;
+}
+#workshops .part a{
+    background: transparent;
+    border: 2px solid #ba3b3b;
+    padding: 15px 30px;
+    color: #ba3b3b;
+    font-size: 14px;
+}
+
+#my_modal p {
+    width: 100px;
+    background: transparent;
+    margin: 0 auto;
+    padding:10px;
+}
+
+#my_modal p a{
+    color: #ba3b3b;
+}
+
+#addPhotoModal input[type="submit"] {
+    background: transparent;
+    border: 2px solid #b83a3a;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+#addPhotoModal input[type="submit"]:hover{
+    background: #b83a3a;
+    border-color: white;
+}
+
+#addPhotoModal input#uploadphoto[type="file"] {
+    color: #b83a3a;
+}
+
+#workshops .part a:hover {
+    background: #ba3b3b;
+    color: white;
+}
+
+form#addphoto {
+    border: 2px solid #b83a3a;
+    border-radius: 6px;
+    padding: 20px;
+    width: 220px;
+}
+
+.delete-link{
+    color: #b83a3a;
+    background: white;
+}
+
+
+
+.dashboard{
+    color: white;
+}
+.dashboard .container-fluid.messages {
+    float: left;
+    margin-top: 10%;
+}
+
+.table-messages > tbody > tr:hover {
+    background: #A62727;
+}
+.table-messages td.message-td{
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#view-message .modal-body.col-lg-12 {
+    border: 2px solid #A62727;
+    margin-top: 3px;
+    border-radius: 6px;
+}
+
+#view-message .modal-body.col-lg-12 p{
+    color: white;
+}
+
+#view-message .modal-header {
+    border: 2px solid #A62727;
+    border-radius: 6px;
+}
+#view-message .modal-header h4{
+    color: white;
+}
+
+.delete-red-fill{
+    border-color: #b83a3a;
+    color: #b83a3a;
+}
+.delete-red-fill:hover {
+    color: #fff !important;
+    background: #c14d4d !important;
+    border-color: #b83a3a;
+}
+
+.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: #ba3b3b}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: #ba3b3b !important;} .bootstrap-iso .btn-custom{background: #ba3b3b} .bootstrap-iso .btn-custom:hover{background: #a62727;}.bootstrap-iso .outline, .bootstrap-iso .outline:focus{background-color: transparent; border: 2px solid #ba3b3b} .bootstrap-iso .outline:hover{background-color: transparent; border: 2px solid#e26363; color: #e26363 !important}.bootstrap-iso .form-control:focus { border-color: #ba3b3b;  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(186, 59, 59, 0.6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(186, 59, 59, 0.6);} .asteriskField{color: red;}.bootstrap-iso form .input-group-addon {color:#555555; background-color: #ffffff; border-radius: 4px; padding-left:12px}
